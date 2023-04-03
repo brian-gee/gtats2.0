@@ -5,18 +5,25 @@ import { fetchInstagramFeed } from './instagram-feed.js' // Adjust the path to y
 const posts = await fetchInstagramFeed()
 ---
 
-<div id="instagram-feed">
-  {
-    posts.map((post) => (
-      <img src={post.media_type === 'IMAGE' ? post.media_url : post.thumbnail_url} alt={post.caption || ''} />
-    ))
-  }
-</div>
-<section class="mt-24 mb-32">
-  <div class="container">
-    <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-2">
-      <Counter count="202" title="Posts" />
-      <Counter count="32.1k" title="Followers" />
-    </div>
+<div>
+  <div>
+    <h1 class="text-center">INSTAGRAM</h1>
   </div>
-</section>
+  <div id="instagram-feed" class="grid grid-cols-2">
+    {
+      posts.map((post) => (
+        <div class="p-10">
+          <img src={post.media_type === 'IMAGE' ? post.media_url : post.thumbnail_url} alt={post.caption || ''} />
+        </div>
+      ))
+    }
+  </div>
+  <section class="mt-24 mb-32">
+    <div class="container">
+      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-2">
+        <Counter count="202" title="Posts" />
+        <Counter count="32.1k" title="Followers" />
+      </div>
+    </div>
+  </section>
+</div>
