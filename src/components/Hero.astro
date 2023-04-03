@@ -9,11 +9,10 @@ import SimpleContact from './SimpleContact.astro'
       <div class="content-container text-center pt-72">
         <h1 class="text-lg italic font-thin text-white">Want to get inked?</h1>
         <p class="pt-2 text-3xl tracking-wider leading-6 uppercase text-white">tattoo inquiry</p>
-        <div class="pt-6 flex items-center justify-center gap-x-6">
-          <button id="contact-modal-trigger" class="button uppercase">click here</button>&nbsp;
-          <Modal triggerId="contact-modal-trigger" title="CONTACT" closeText="CLOSE">
-            <SimpleContact />
-          </Modal>
+        <div class="pt-6 flex items-center justify-center">
+          <a href="contact">
+            <button class="border-2 border-white font-bold uppercase">click here</button>
+          </a>
         </div>
       </div>
     </div>
