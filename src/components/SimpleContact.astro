@@ -8,28 +8,31 @@
         <input type="hidden" name="contact" value="tattoo-inquiry" />
         <div class="md:flex items-center mt-12">
           <div class="w-full md:w-1/2 flex flex-col">
+            <label for="name" class="font-semibold leading-none">Name</label>
             <input
               placeholder="Name"
               required
               type="text"
               id="name"
               name="name"
-              class="leading-none text-black p-3 mt-2 rounded border-2"
+              class="leading-none text-black p-3 mt-4 rounded border-2"
             />
           </div>
           <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
+            <label for="phone" class="font-semibold leading-none">Phone</label>
             <input
               placeholder="Phone"
               required
               type="tel"
               id="phone"
               name="phone"
-              class="leading-none text-black p-3 mt-2 rounded border-2"
+              class="leading-none text-black p-3 mt-4 rounded border-2"
             />
           </div>
         </div>
-        <div class="md:flex items-center mt-2">
+        <div class="md:flex items-center mt-4">
           <div class="w-full flex flex-col">
+            <label for="email" class="font-semibold leading-none">Email</label>
             <input
               placeholder="Email"
               required
@@ -41,7 +44,8 @@
           </div>
         </div>
         <div>
-          <div class="w-full flex flex-col mt-2">
+          <div class="w-full flex flex-col mt-4">
+            <label for="Message" class="font-semibold leading-none">Message</label>
             <textarea
               placeholder="Tell us about your tattoo idea."
               required
@@ -52,12 +56,9 @@
         </div>
         <div data-netlify-recaptcha="true" class="flex justify-center"></div>
         <div class="flex items-center justify-center w-full">
-          <button
-            type="submit"
-            class="mt-9 font-semibold leading-none text-white py-4 px-10 bg-zinc-800 rounded hover:bg-zinc-700 focus:ring-2 focus:ring-offset-2 focus:ring-zinc-800 focus:outline-none"
+          <button type="submit" class="mt-9 font-semibold leading-none p-4 border-2 border-black dark:border-white">
+            Send message</button
           >
-            Send message
-          </button>
         </div>
       </form>
     </div>
