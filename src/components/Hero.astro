@@ -1,3 +1,8 @@
+---
+import { Modal } from 'accessible-astro-components'
+import SimpleContact from './SimpleContact.astro'
+---
+
 <section class="hero bg-image">
   <div class="container">
     <div class="grid grid-cols-1 items-center justify-center h-screen">
@@ -5,11 +10,10 @@
         <h1 class="text-lg italic font-thin text-white">Want to get inked?</h1>
         <p class="pt-2 text-3xl tracking-wider leading-6 uppercase text-white">tattoo inquiry</p>
         <div class="pt-6 flex items-center justify-center gap-x-6">
-          <a href="/">
-            <button class="font-medium text-lg py-2 px-4 rounded uppercase text-white border-2 border-white">
-              click here</button
-            >
-          </a>
+          <button id="contact-modal-trigger" class="button uppercase">click here</button>&nbsp;
+          <Modal triggerId="contact-modal-trigger" title="CONTACT" closeText="CLOSE">
+            <SimpleContact />
+          </Modal>
         </div>
       </div>
     </div>
