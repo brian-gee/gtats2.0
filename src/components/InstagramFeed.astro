@@ -1,4 +1,5 @@
 ---
+import { Media } from 'accessible-astro-components'
 import Counter from './Counter.astro'
 import { fetchInstagramFeed } from './instagram-feed.js' // Adjust the path to your actual file location
 
@@ -13,7 +14,7 @@ const posts = await fetchInstagramFeed()
     {
       posts.map((post) => (
         <div class="p-10">
-          <img src={post.media_type === 'IMAGE' ? post.media_url : post.thumbnail_url} alt={post.caption || ''} />
+          <Media src={post.media_type === 'IMAGE' ? post.media_url : post.thumbnail_url} alt={post.caption || ''} />
         </div>
       ))
     }
