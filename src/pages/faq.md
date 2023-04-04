@@ -32,11 +32,11 @@ German Gamboa is well-versed in a variety of tattoo styles, including but not li
 - Tribal
 - Geometric
 
-Feel free to browse the [portfolio](https://www.germangamboart.com/portfolio) to see examples of his work in each style.
+Feel free to browse the [portfolio](https://www.gtats2.netlify.app/) to see examples of his work in each style.
 
 ### How can I book an appointment? <a name="how-can-i-book-an-appointment"></a>
 
-To book an appointment with German Gamboa, please visit our [booking page](https://www.germangamboart.com/booking) and fill out the provided form. Be sure to include a description of your desired tattoo, placement, and approximate size. We will get back to you as soon as possible to confirm your appointment and discuss further details.
+To book an appointment with German Gamboa, please visit our [booking page](/contact) and fill out the provided form. Be sure to include a description of your desired tattoo, placement, and approximate size. We will get back to you as soon as possible to confirm your appointment and discuss further details.
 
 ### What is the cost of a tattoo? <a name="what-is-the-cost-of-a-tattoo"></a>
 
@@ -44,7 +44,7 @@ The cost of a tattoo varies depending on the size, complexity, and placement of 
 
 ### Do you offer consultations? <a name="do-you-offer-consultations"></a>
 
-Yes, we do offer consultations for new clients. During your consultation, you will have the opportunity to discuss your tattoo idea with German Gamboa and ask any questions you may have. To schedule a consultation, please visit our [booking page](/contact).
+Yes, we do offer consultations for new clients. During your consultation, you will have the opportunity to discuss your tattoo idea with German and ask any questions you may have. To schedule a consultation, please visit our [booking page](/contact).
 
 ### How should I prepare for my appointment? <a name="how-should-i-prepare-for-my-appointment"></a>
 
