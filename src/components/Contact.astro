@@ -95,7 +95,7 @@
       </div>
       <label class="text-sm leading-6" id="switch-1-label">
         By selecting this, you agree to our
-        <a href="#" class="font-semibold text-indigo-600">privacy&nbsp;policy</a>.
+        <a href="/privacy" class="font-semibold text-indigo-600">privacy&nbsp;policy</a>.
       </label>
     </div>
   </div>
@@ -107,3 +107,18 @@
     >
   </div>
 </form>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const privacySwitch = document.querySelector('[role="switch"]')
+    privacySwitch.addEventListener('click', function () {
+      const isChecked = privacySwitch.getAttribute('aria-checked') === 'true'
+
+      privacySwitch.setAttribute('aria-checked', !isChecked)
+      privacySwitch.querySelector('span[aria-hidden="true"]').style.transform = isChecked
+        ? 'translateX(0)'
+        : 'translateX(3.5)'
+      privacySwitch.style.backgroundColor = isChecked ? 'bg-gray-200' : 'bg-indigo-600'
+    })
+  })
+</script>
