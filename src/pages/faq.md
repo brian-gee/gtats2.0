@@ -32,7 +32,7 @@ German Gamboa is well-versed in a variety of tattoo styles, including but not li
 - Tribal
 - Geometric
 
-Feel free to browse the [portfolio](https://www.gtats2.netlify.app/) to see examples of his work in each style.
+Feel free to browse the [portfolio](https://gtats2.netlify.app/) to see examples of his work in each style.
 
 ### How can I book an appointment? <a name="how-can-i-book-an-appointment"></a>
 
